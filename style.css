@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans', sans-serif;
+
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://4.bp.blogspot.com/-wpGcMwMGFHQ/V6ZtydFbufI/AAAAAAAADHk/4hELqSh4eYIUb1tqvi_VUN4f782BUSVgwCLcB/s2560/amazing_landscape-wallpaper-1920x1080.jpg");
+
+}
+.menu {
+    background: #000000;
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 25px;
+}
+.titulo {
+    color: #ffffffff;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.graus {
+    color: #ffffffff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.temp {
+    color: #ffffffff;
+    font-size: 15px;
+    margin-top: 15px;
+    text-transform: capitalize;
+
+}
+.umidade-{
+    color: #ffffffff;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.img {
+    width: 37px;
+    height: 37px;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+.input-city {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: calc(100%-100px);
+}
+.pesquisar {
+    width: 25px;
+    height: 20px;
+}
+.butao {
+    cursor: pointer;
+    outline: none;
+}
+.caixa {
+    display: flex;
+}
